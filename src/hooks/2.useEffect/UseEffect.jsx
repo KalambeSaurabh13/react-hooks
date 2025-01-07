@@ -1,6 +1,16 @@
 import React, { useEffect, useState } from "react";
 
 const UseEffect = () => {
+//   1. The useEffect hook is used to implement side effects in a component.
+
+// 2. useEffect takes two arguments: a function that performs side effects and a dependency array
+//3. To implement componentDidMount(), pass an empty dependency array</p>
+//4. To implement componentDidUpdate(), pass dependencies to run the useEffect if one of those dependencies changes
+//5. For componentWillUnmount(), return a callback function from useEffect containing the cleanup code
+
+
+
+
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
 
