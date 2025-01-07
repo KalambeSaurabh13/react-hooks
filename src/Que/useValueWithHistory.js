@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useDebugValue, useState } from "react";
 
 export const useValueWithHistory = (initalValue) => {
   const [value, setValue] = useState(initalValue);
@@ -11,6 +11,7 @@ export const useValueWithHistory = (initalValue) => {
     setHistory((prev) => [...prev, num]);
     setFindIndex(history.length);
   };
+  useDebugValue(history)
 
   const commanFunction = (data) =>{
         setFindIndex(data);

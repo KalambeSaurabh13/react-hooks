@@ -10,6 +10,9 @@ import UseReducer from './hooks/7.useReducer/UseReducer';
 import ReactMemo from './hooks/3.useMemo/ReactMemo';
 import UseMemo from './hooks/3.useMemo/UseMemo';
 import UseCallback from './hooks/8.useCallback/UseCallback';
+import UseContext from './hooks/4.useContext/UseContext';
+import Parent from './hooks/9.useImperativeHandle/Parent';
+import UseLayoutEffect from './hooks/10.useLayoutEffect/UseLayoutEffect';
 
 function App() {
   return (
@@ -21,7 +24,11 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseId /> */}
       {/* <UseReducer /> */}
-      <UseCallback />
+      {/* <UseCallback /> */}
+      {/* <UseContext /> */}
+      {/* <Parent /> */}
+      {/* <UseLayoutEffect /> */}
+      <Rakuten/>
     </div>
   );
 }
